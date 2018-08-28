@@ -10,7 +10,8 @@ go get github.com/TokenUndefined/logger
 # 使用
 import github.com/TokenUndefined/logger
 
-logger.Debug("hai")\n
+logger.Debug("hai")
+
 logger.Info("hai info msg")
 
 logger.Warn("hai Warn")
@@ -20,11 +21,17 @@ logger.Error("hai Error msg")
 logger.Fatal("hai Fatal msg")
 
 logger.Debugf("I'm %s log! ","debug")
+
 logger.Infof("I'm %s log!","info")
+
 logger.Warnf("I'm %s log!","warn")
+
 logger.Errorf("I'm %s log!","error")
 
 logger.Debugln("I'm","debug","log!")
+
 logger.Infoln("I'm","info","log!")
+
 logger.Warnln("I'm","warn","log!")
+
 logger.Errorln("I'm","error","log!")
