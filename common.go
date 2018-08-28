@@ -3,7 +3,6 @@ package logger
 import (
 	"os"
 	"time"
-	"fmt"
 )
 
 func PathExits(path string) bool {
